@@ -1,0 +1,27 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Large Model Weights & Data Directory
+data/
+*.ckpt
+*.safetensors
+*.bin
+
+# Images (optional - comment out if you want to track images)
+images/*
+!images/.gitkeep
+
+# Zip archives
+*.zip
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# System / IDE files
+.vscode/
+.DS_Store
