@@ -9,10 +9,6 @@ data/
 *.safetensors
 *.bin
 
-# Images (optional - comment out if you want to track images)
-images/*
-!images/.gitkeep
-
 # Zip archives
 *.zip
 
